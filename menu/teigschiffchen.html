@@ -4,14 +4,16 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Frühstück</title>
+    <title>Teigschiffchen</title>
     <link rel="stylesheet" href="/style/menustyle.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 </head>
 <body>
     <div class="banner">
         <div class="navbar">
-            <img src="style/Selcuklu_logo_transparent.png" class="logo">
+            <div class="logo">
+            <img src="style/Selcuklu_logo_transparent.png">
+        </div>
             <ul>
                 <li><a href="/menu.html">MENU</a></li>
                 <li><a href="#">ABOUT</a></li>
@@ -21,11 +23,13 @@
             <div class="container">
                 <h3>TEIGSCHIFFCHEN</h3>
                 <div class="box">
-                    <p>Kaşarlı Pide</p>  
+                    <p>Kaşarlı Pide </p> 
+                    
                     <img class="image" src="/essen/kasarlipide.jpeg" alt="sss">
                 </div>
                 <div class="box">
-                    <p>Lahmacun</p>
+                    <p>Lahmacun </p>
+                    
                     <img src="/essen/lahmacun.jpeg" alt="">
                 </div>
             <div class="popup-image">
@@ -34,9 +38,22 @@
             </div>
         </section>
         <section>
-            <a href=""></a>
+            <div class="button-container">
+                <button class="button" id="before">
+                    <a href="/menu/beilagen.html"> <i class="fa-solid fa-angle-left"></i> Beilagen</a>
+                </button >
+                <button  class="button" id="main-menu">
+                    <a href="/menu.html"> <i class="fa-solid fa-utensils"></i> Menu</a>
+                </button >
+                <button  class="button" id="after">
+                    <a href="/menu/pfanne.html">Pfannengerichte <i class="fa-solid fa-angle-right"></i></a>
+                </button >
+            </div>
         </section>
     </div>
+
+
+
     <footer class="footer">
         <div class="footer-content">
             <ul class="socials">
